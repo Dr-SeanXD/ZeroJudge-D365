@@ -1,0 +1,7 @@
+Use DFS to traverse each point on the map to determine how many distinct regions of characters exist. 
+A map can be used to store the number of regions for each character. 
+To avoid redundant calculations, an array should be maintained to keep track of the visited points. 
+When outputting the results, they should be sorted in descending order by the number of regions. 
+To achieve this, store each character and its corresponding region count in a Pair, where the first field is the integer (region count) and the second field is the character. 
+Store these pairs in an array and use Sort to arrange the output. 
+Finally, iterate through the sorted array using a for loop to print the results.
